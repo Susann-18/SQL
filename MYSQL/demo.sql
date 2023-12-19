@@ -46,14 +46,14 @@ where DemoID between 1 AND 4;
 
 
 SELECT * FROM Demo
-WHERE FirstName LIKE 'a%'
+WHERE FirstName LIKE 's%'
 LIMIT 0, 1000;
 
 
 SELECT * FROM Demo
 WHERE FirstName IN ('anu varghese','suja varghess');
 
-
+use sys;
 
 
 
